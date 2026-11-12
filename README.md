@@ -32,6 +32,8 @@ Windows build. See NOTICE.md for attribution.*
   与一键自检。
 - 提供独立的 Windows 单文件实现（Python + 本地 Web UI + WebView2 窗口），
   并把对上游 Flutter 工程的改进以源码补丁形式一并交付。
+<img width="1169" height="811" alt="image" src="https://github.com/user-attachments/assets/bbc28421-94f8-49d6-8ad7-1e4964a9a681" />
+
 
 ## 目录结构
 
@@ -93,7 +95,7 @@ python -m PyInstaller "Pocket Motion.spec" --distpath dist-single --workpath bui
 ## 状态与限制
 
 - 独立 Windows 版的端到端自检（识别 → 导出 → 实际解码校验）通过，
-  自检使用按 DJI 文件规范构造的模拟素材，**尚未用 Osmo Pocket 4 真机原片验证**。
+  自检使用按 DJI 文件规范构造的模拟素材，**已用 Osmo Pocket 4 真机原片验证**。
 - `windows/assets/patch/` 下的 Dart 改动**未在 Flutter 环境编译验证**，
   以源码参考方式提供。
 - Windows 看图软件只显示静态封面属正常现象；Apple 实况需把同名

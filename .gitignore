@@ -1,0 +1,41 @@
+# 构建产物与第三方二进制（不入库，也不随源码分发）
+ffmpeg.exe
+ffmpeg
+*.bin
+*.exe
+*.zip
+*.dmg
+*.pkg
+dist/
+dist-*/
+build/
+build-*/
+build1/
+build2/
+build-single/
+dist1/
+dist2/
+dist-final/
+dist-gui/
+dist-single/
+_internal/
+_selftest/
+*.spec.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本机配置与临时文件
+config.json
+*.log
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+
+# 本机内部资料
+.workbuddy/
+output/
